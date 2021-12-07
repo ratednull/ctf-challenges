@@ -20,7 +20,7 @@
     ini_set('max_execution_time', 5);
     if ($_COOKIE['password'] !== getenv('PASSWORD')) {
         setcookie('password', 'PASSWORD');
-        die('Sorry, only people from csivit are allowed to access this page.');
+        die('Sorry, only people from cds are allowed to access this page.');
     }
     ?>
 
